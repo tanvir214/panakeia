@@ -1,0 +1,407 @@
+/* Author
+
+Name : Md. Tanvir Parvez;
+Mail : tanvirparvez21@gmail.com;
+
+*/
+
+
+
+/*
+====Index===
+	
+	1.Header
+	2.Fusce
+	3.Facilisis
+	4.
+	5.
+	6.
+
+*/
+
+
+/* Global CSS */
+body {
+	font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+	font-size: 45px;
+    color: #ffff;
+    text-align: center;
+    padding-top: 430px;
+    font-weight: 100;
+}
+
+h2 {
+	color: #ffff;
+	font-size: 30px;
+	padding: 20px 0;
+    margin: 0px;
+}
+
+h3 {
+	color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+    padding-bottom: 100px;
+}
+
+h4 {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
+	padding: 80px 0;
+}
+
+h5 {
+	font-size: 16px;
+    font-weight: 300;
+    padding: 10px 0
+}
+
+h6 {
+	text-align: center;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+p {
+	color: #ffff;
+	font-size: 15px;
+	font-weight: 200;
+}
+
+.btn {
+	margin: 80px auto;
+    display: block;
+    padding: 10px 40px;
+    background: #ffff;
+    border: none;
+    border-radius: 30px;
+    color: #dd4b2b;
+}
+
+.no-padding {
+	padding: 0px;
+}
+
+
+/* Theme CSS */
+
+
+/* Header Section Start*/
+
+.nav-head {
+	background-color: #edeff1!important;
+	padding: 30px 0;
+}
+
+.nav-item {
+	margin: 0 15px;
+}
+
+.nav-link {
+	font-size: 18px;
+	color: #31353e!important;
+	font-weight: 500;
+}
+
+.nav-link.js-scroll-trigger.active {
+    background: #dd4b2b;
+    padding: 8px 30px;
+    border-radius: 30px;
+    color: #ffff!important;
+}
+
+/* Header Section End*/
+
+
+/* Hero Section Start */
+.hero {
+	background: url(../img/hero.png)no-repeat top center;
+    background-size: cover;
+}
+
+.hero-title {
+
+}
+
+.food-item {
+	text-align: center;
+}
+
+.food-item img{
+	
+}
+
+/* Hero Section End */
+
+
+/* Section facilisis Start */
+
+.facilisis {
+	background-color: #edeff1;
+	color: #31353e;
+	padding-bottom: 80px;
+}
+
+
+.news-cont h2 {
+    text-align: center;
+    color: #31353e;
+}
+
+.news-cont {
+
+}
+
+
+.news-cont img {
+
+}
+
+.news-btn {
+	display: block;
+    margin: 55px auto;
+    border: none;
+    background: #ffff;
+    padding: 8px 15px;
+    border-radius: 30px;
+    color: #31353e;
+    font-weight: 200;
+}
+
+/* Section facilisis End */
+
+
+/* Section Ante Start */
+.ante {
+	background: url(../img/food.png)no-repeat top center;
+	background-size: cover;
+	padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.ante-cont {
+	position: relative;
+}
+
+.ante-cont h2 {
+	text-align: center;
+}
+
+.ante-cont p {
+	text-align: center;
+}
+
+.form-cont {
+	border: none;
+    background: #a4998c;
+    padding: 10px 15px;
+    border-radius: 50px;
+    width: 80%;
+}
+
+.sign {
+	position: absolute;
+    top: 31%;
+    right: 0px;
+    width: 35%;
+}
+
+/* Section Ante End */
+
+
+/* Section blandit Start*/
+.blandit {
+	padding: 80px 0;
+}
+
+.blandit-cont h2 {
+	color: #000;
+    font-weight: 700;
+}
+
+.blandit-cont img {
+	width: 85%;
+    padding: 10px 10px
+}
+
+.btn-blan {
+	background: #dd4b2b;
+	margin: 20px 0;
+	color: #ffff;
+	padding: 10px 60px;
+}
+
+.btn-blandit {
+	background: #4b4e73;
+	margin: 20px 0;
+	color: #ffff;
+	padding: 10px 60px;
+}
+/* Section blandit End*/
+
+
+/* Section placerat Start*/
+.placerat {
+	background: #d75d0e;
+	padding: 90px 0;
+}
+
+.list {
+	text-align: center;
+}
+
+.list ul {
+	list-style: none;
+}
+
+.list ul li {
+	padding: 3px 0;
+}
+
+.list ul li a {
+	text-decoration: none;
+	color: #ffff;
+	font-size: 18px;
+}
+/* Section placerat End*/
+
+
+/*footer section Start*/
+footer {
+	background: url(../img/food.png)no-repeat top center;
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 170px;
+}
+
+footer p {
+	font-size: 17px;
+	text-align: center;
+	font-weight: 300;
+}
+
+footer a {
+	color: #ffff;
+}
+/*footer section End*/
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 500px){
+	h1 {
+		padding-top: 200px;
+    	font-size: 35px;
+	}
+
+	h2 {
+		padding: 5px 0;
+    	font-size: 25px;
+	}
+
+	h3 {
+		font-size: 20px;
+	}
+
+	h4 {
+		padding: 40px 0;
+    	margin: 0px;
+	}
+
+	h5 {
+		text-align: center;
+	}
+
+	h6 {
+
+	}
+
+	p{
+		font-size: 12px;
+	}
+
+	.btn {
+		margin: 40px auto;
+	}
+
+	/* Header Section Start*/
+
+	.nav-head img {
+		padding: 0 15px;
+	}
+
+	/* Header Section End*/
+
+
+	/* Section facilisis Start */
+	.news-cont img {
+		display: block;
+    	margin: 0 auto;
+	}
+
+	.news-btn {
+		margin: 30px auto;
+	}
+	/* Section facilisis End */
+
+
+	/* Section Ante Start*/
+	.form-cont {
+		margin: 10px 25px 0px;
+	}
+
+	.sign {
+		top: 42%;
+    	right: 30px;
+	}
+	/* Section Ante End */
+
+	
+	/* Section blandit Start*/
+	.blandit-cont img {
+		margin: 0 auto;
+		display: block;
+	}
+
+	.blandit-cont h2{
+		text-align: center;
+	}
+	/* Section blandit End*/
+
+
+	/* Section placerat Start*/
+	.placerat {
+		padding: 50px 0;
+	}
+	/* Section placerat End*/
+
+
+	/*footer section Start*/
+		footer {
+			padding-top: 30px;
+			padding-bottom: 150px;
+		}
+
+		footer p {
+			font-size: 15px;
+		}
+		/*footer section End*/
+}
+
+@media (min-width: 500.01px) and (max-width: 768px) {
+
+}
+
+@media (min-width: 768.01px) and (max-width: 1200px) {
+
+}
+
+@media (min-width: 1200.01px) {
+
+}
