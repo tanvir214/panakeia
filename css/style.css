@@ -395,6 +395,12 @@ footer a {
 }
 
 @media (min-width: 500.01px) and (max-width: 768px) {
+	/* Section Ante Start*/
+	.sign {
+		top: 38%;
+    	right: 30px;
+	}
+	/* Section Ante End */
 
 }
 
